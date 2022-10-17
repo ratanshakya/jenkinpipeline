@@ -23,5 +23,15 @@ stage('Test') {
 
 	}
     }
+
+stage('Testing in prov') {
+	steps{
+ 		echo "deploying my code"
+
+	}
+    }
+
+
+
   }
 }
